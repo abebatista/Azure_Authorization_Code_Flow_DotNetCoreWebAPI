@@ -5,6 +5,27 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthWebAPI.Client", "AuthWebAPI.Client\AuthWebAPI.Client.csproj", "{2DD76A8E-C14C-4F9C-933D-EB37CE26AEBE}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Authorization_Code_Flow_Angular", "..\Azure_Authorization_Code_Flow_Angular\", "{750D8D11-A67B-46E8-96A5-8D0FB95FF84D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55642"
+		Debug.AspNetCompiler.PhysicalPath = "..\Azure_Authorization_Code_Flow_Angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55642\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55642"
+		Release.AspNetCompiler.PhysicalPath = "..\Azure_Authorization_Code_Flow_Angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55642\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55642"
+		SlnRelativePath = "..\Azure_Authorization_Code_Flow_Angular\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{2DD76A8E-C14C-4F9C-933D-EB37CE26AEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD76A8E-C14C-4F9C-933D-EB37CE26AEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD76A8E-C14C-4F9C-933D-EB37CE26AEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750D8D11-A67B-46E8-96A5-8D0FB95FF84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750D8D11-A67B-46E8-96A5-8D0FB95FF84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750D8D11-A67B-46E8-96A5-8D0FB95FF84D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{750D8D11-A67B-46E8-96A5-8D0FB95FF84D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
